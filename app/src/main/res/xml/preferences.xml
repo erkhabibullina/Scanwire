@@ -1,0 +1,57 @@
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general">
+
+        <!-- Dark Theme -->
+        <SwitchPreference
+            app:icon="@drawable/ic_dark_theme"
+            app:key="@string/dark_theme_key"
+            app:title="@string/dark_theme_title"
+            app:defaultValue="@bool/default_night_mode" />
+
+        <!-- Force 24h -->
+        <SwitchPreference
+            app:icon="@drawable/ic_time"
+            app:key="@string/time_24_key"
+            app:summary="@string/time_24_summary"
+            app:title="@string/time_24_title"
+            app:defaultValue="@bool/default_military_time" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/action_scan">
+
+        <!-- Beep -->
+        <SwitchPreference
+            app:icon="@drawable/ic_beep"
+            app:key="@string/beep_key"
+            app:summary="@string/beep_summary"
+            app:title="@string/beep_title"
+            app:defaultValue="@bool/default_beep" />
+
+        <!-- Vibrate -->
+        <SwitchPreference
+            app:icon="@drawable/ic_vibration"
+            app:key="@string/vibration_key"
+            app:summary="@string/vibration_summary"
+            app:title="@string/vibration_title"
+            app:defaultValue="@bool/default_vibration" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about">
+
+        <Preference
+            app:icon="@drawable/ic_github_black_24dp"
+            app:key="@string/about_other_apps_key"
+            app:summary="@string/about_other_apps_summary"
+            app:title="@string/about_other_apps_title" />
+
+        <Preference
+            app:icon="@drawable/ic_info"
+            app:key="@string/about_app_key"
+            app:title="@string/app_name" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

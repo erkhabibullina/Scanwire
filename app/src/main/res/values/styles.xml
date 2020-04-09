@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Default Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- Theme with custom Toolbar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Navigation Drawer -->
+    <style name="Drawer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="headerLayout">@layout/nav_header</item>
+        <item name="menu">@menu/menu_drawer</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- AppBarLayout -->
+    <style name="AppBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="ToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimaryDark</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <!-- Barcode Action: CardView -->
+    <style name="BarcodeActionCardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <!-- Barcode Action: Icon -->
+    <style name="BarcodeActionIcon">
+        <item name="android:layout_width">@dimen/ic_size_barcode_action</item>
+        <item name="android:layout_height">@dimen/ic_size_barcode_action</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:tint">@color/accent</item>
+    </style>
+
+    <!-- Barcode Action: Text -->
+    <style name="BarcodeActionText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- QR CardView -->
+    <style name="QrCardView">
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <!-- QR ImageView -->
+    <style name="QrImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:contentDescription">@string/cont_qr_code</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Button">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:backgroundTint">@color/accent</item>
+    </style>
+
+</resources>

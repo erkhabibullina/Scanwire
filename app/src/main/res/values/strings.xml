@@ -1,0 +1,125 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App -->
+    <string name="app_name">Scanwire</string>
+    <string name="app_version">Version <xliff:g example="1.0">%s</xliff:g></string>
+
+    <!-- Common -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="delete">Delete</string>
+    <string name="undo">Undo</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="general">General</string>
+    <string name="ok">OK</string>
+    <string name="about">About</string>
+    <string name="barcode">Barcode</string>
+    <string name="close">Close</string>
+
+    <!-- Info -->
+    <string name="barcode_deleted">Barcode deleted</string>
+    <string name="barcode_delete_all_message">This action deletes ALL saved Barcodes, are you sure?!</string>
+    <string name="barcode_saved">Barcode saved</string>
+    <string name="history_is_empty">You have no saved barcodes, scan\nor generate one and it will appear here.</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="connecting">Connecting to \'<xliff:g example="UniFi">%s</xliff:g>\'..</string>
+    <string name="empty_search_result">No barcode match the query..</string>
+    <string name="camera_required">Please enable camera permissions!</string>
+    <string name="generate_first">Please click \'GO\' first..</string>
+    <string name="generate_new_value_required">Please enter a new value and click \'GO\'..</string>
+
+    <!-- Actions -->
+    <string name="action_scan">Scan</string>
+    <string name="action_history">History</string>
+    <string name="action_history_clear">Clear history</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_torch">Torch</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="action_generate_qr">Generate QR</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_call">Call</string>
+    <string name="action_sms">Send SMS</string>
+    <string name="action_mms">Send MMS</string>
+    <string name="action_copy">Copy to clipboard</string>
+    <string name="action_copy_raw">Copy to clipboard (raw)</string>
+    <string name="action_map">Map</string>
+    <string name="action_open">Open</string>
+    <string name="action_email">Compose</string>
+    <string name="action_directions">Directions</string>
+    <string name="action_generate">Generate</string>
+    <string name="action_go">GO</string>
+    <string name="action_save">Save</string>
+    <string name="action_rate">Rate</string>
+
+    <!-- Barcode Types -->
+    <string name="type_text">Text</string>
+    <string name="type_url">Url</string>
+    <string name="type_phone">Phone</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_wifi">WiFi</string>
+    <string name="type_geo_point">Geo Location</string>
+    <string name="type_contact_info">Contact Info</string>
+    <string name="type_calendar_event">Calendar Event</string>
+    <string name="type_id">ID / Driver License</string>
+    <string name="type_isbn">ISBN</string>
+    <string name="type_unknown">Unknown</string>
+    <string name="type_generated">Generated</string>
+
+    <!-- WiFi -->
+    <string name="wifi_open">OPEN</string>
+    <string name="wifi_wep" translatable="false">WEP</string>
+    <string name="wifi_wpa" translatable="false">WPA</string>
+    <string name="wifi_ssid" translatable="false">SSID: <xliff:g example="Home">%s</xliff:g></string>
+    <string name="wifi_encryption">Encryption: <xliff:g example="WPA">%s</xliff:g></string>
+    <string name="wifi_key">Key: <xliff:g example="password1234">%s</xliff:g></string>
+    <string name="wifi_view_key">View Key</string>
+    <string name="wifi_hide_key">Hide Key</string>
+
+    <!-- Geo -->
+    <string name="geo_latitude"><xliff:g example="10.1">%s</xliff:g> (lat)</string>
+    <string name="geo_longitude"><xliff:g example="-25.2">%s</xliff:g> (long)</string>
+
+    <!-- About -->
+    <string name="about_description">The App allows scanning multiple QR / barcodes at the same time and identifies the following embedded data types: Text, Phone, SMS, E-Mail, Url, WiFi, ISBN, Contact, Calendar event, Geo point, ID / Driver license and Raw.</string>
+    <string name="libraries">Libraries</string>
+    <string name="about_libraries">These external libraries were used when building this app: &lt;a href=\"https://github.com/google/dagger/\">Dagger2&lt;/a>, &lt;a href=\"https://github.com/google/gson/\">Gson&lt;/a>, &lt;a href=\"https://developers.google.com/ml-kit/\">ML-Kit&lt;/a>, &lt;a href=\"https://github.com/zxing/zxing/\">ZXing&lt;/a>.</string>
+
+    <!-- Preferences -->
+    <string name="dark_theme_title">Dark Theme</string>
+    <string name="dark_theme_key" translatable="false">dark_theme</string>
+    <string name="time_24_title">24-hour format</string>
+    <string name="time_24_summary">Override your locale settings</string>
+    <string name="time_24_key" translatable="false">time_24</string>
+    <string name="beep_title">Beep</string>
+    <string name="beep_summary">Beep on scan</string>
+    <string name="beep_key" translatable="false">beep</string>
+    <string name="vibration_title">Vibration</string>
+    <string name="vibration_summary">Vibrate on scan</string>
+    <string name="vibration_key" translatable="false">vibration</string>
+    <string name="about_other_apps_key" translatable="false">about_apps</string>
+    <string name="about_other_apps_title">GitHub</string>
+    <string name="dev_github">https://github.com/erkhabibullina</string>
+    <string name="about_other_apps_summary">Check my other apps</string>
+    <string name="about_app_key" translatable="false">about_app</string>
+
+    <!-- Content Descriptions -->
+    <string name="cont_type">Type</string>
+    <string name="cont_nav_drawer_open">Open navigation drawer</string>
+    <string name="cont_nav_drawer_close">Close navigation drawer</string>
+    <string name="cont_qr_code">QR Code</string>
+
+    <!-- Hints -->
+    <string name="hint_generate">www.google.com</string>
+
+    <!-- Tools -->
+    <string name="tools_type" translatable="false">Text</string>
+    <string name="tools_value" translatable="false">Abcdefghjijklmnopqrstuvxyz</string>
+    <string name="tools_date" translatable="false">17:55 10/01 2020</string>
+    <string name="tools_connect" translatable="false">Connect</string>
+
+</resources>

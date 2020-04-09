@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309045819134",
+    "firebase_url": "https://scanwire-2788c.firebaseio.com",
+    "project_id": "scanwire-2788c",
+    "storage_bucket": "scanwire-2788c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309045819134:android:351261b946b12bedd517af",
+        "android_client_info": {
+          "package_name": "com.example.android.scanwire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309045819134-v2062njcaebqs2dq7m77dgt49i9vr7el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.scanwire",
+            "certificate_hash": "643dc83f96dafcf36395213de5a573c181aa3414"
+          }
+        },
+        {
+          "client_id": "309045819134-sb7vcurgs4211najo2gq0hquj7u9gmk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-HlRjKvmcN8waXdP47zDaTTHJsHduwjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309045819134-sb7vcurgs4211najo2gq0hquj7u9gmk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

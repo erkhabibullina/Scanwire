@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Scan -->
+    <item
+        android:id="@+id/nav_scan"
+        android:icon="@drawable/ic_scan"
+        android:title="@string/action_scan" />
+
+    <!-- Scan -->
+    <item
+        android:id="@+id/nav_generate"
+        android:icon="@drawable/ic_generate"
+        android:title="@string/action_generate" />
+
+    <!-- History -->
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history"
+        android:title="@string/action_history" />
+
+    <!-- Settings -->
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings" />
+
+</menu>

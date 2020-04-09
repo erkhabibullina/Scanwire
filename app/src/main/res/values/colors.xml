@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4caf50</color>
+    <color name="primary_dark">#087f23</color>
+    <color name="primary_light">#80e27e</color>
+    <color name="accent">#d50000</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#737373</color>
+    <color name="icons_menu">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="list_item">#FAFAFA</color>
+    <color name="list_selector">#EFEFEF</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="camera_background">#303030</color>
+    <color name="camera_required_text">#FFFFFF</color>
+</resources>

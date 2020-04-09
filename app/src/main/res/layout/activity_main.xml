@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.drawerlayout.widget.DrawerLayout
+        style="@style/Drawer"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity"
+        tools:openDrawer="start">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                style="@style/AppBarLayout"
+                android:id="@+id/app_bar_layout">
+
+                <androidx.appcompat.widget.Toolbar
+                    style="@style/ToolBar"
+                    android:id="@+id/toolbar" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/actionBarSize" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            style="@style/Drawer" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

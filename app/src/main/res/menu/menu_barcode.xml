@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Generate QR -->
+    <item
+        android:id="@+id/action_generate_qr"
+        android:icon="@drawable/ic_generate_menu"
+        android:title="@string/action_generate_qr"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+
+    <!-- Copy to clipboard -->
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_copy"
+        android:title="@string/action_copy"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <!-- Share -->
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/action_share"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+    <!-- Copy to clipboard (raw) -->
+    <item
+        android:id="@+id/action_copy_raw"
+        android:icon="@drawable/ic_copy"
+        android:title="@string/action_copy_raw"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+    <!-- Delete -->
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_clear"
+        android:title="@string/action_delete"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+
+</menu>

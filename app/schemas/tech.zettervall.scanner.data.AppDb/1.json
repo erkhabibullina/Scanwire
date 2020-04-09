@@ -1,0 +1,118 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "1fc8650ba0e3b1a5d7b45c305e4d8748",
+    "entities": [
+      {
+        "tableName": "barcodes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `creation_epoch` INTEGER NOT NULL, `generated` INTEGER NOT NULL, `raw_value` TEXT, `display_value` TEXT, `type` INTEGER NOT NULL, `email` TEXT, `phone` TEXT, `sms` TEXT, `url` TEXT, `wifi` TEXT, `geo_point` TEXT, `contact_info` TEXT, `calendar_event` TEXT, `driver_license` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "_id",
+            "columnName": "_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creationEpoch",
+            "columnName": "creation_epoch",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "generated",
+            "columnName": "generated",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rawValue",
+            "columnName": "raw_value",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "displayValue",
+            "columnName": "display_value",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "email",
+            "columnName": "email",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "phone",
+            "columnName": "phone",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "sms",
+            "columnName": "sms",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "url",
+            "columnName": "url",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "wifi",
+            "columnName": "wifi",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "geoPoint",
+            "columnName": "geo_point",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "contactInfo",
+            "columnName": "contact_info",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "calendarEvent",
+            "columnName": "calendar_event",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "driverLicense",
+            "columnName": "driver_license",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "_id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1fc8650ba0e3b1a5d7b45c305e4d8748')"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/selector_listitem">
+
+    <ImageView
+        android:id="@+id/list_barcode_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/cont_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:src="@drawable/ic_text" />
+
+    <TextView
+        android:id="@+id/list_barcode_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constraintBottom_toTopOf="@+id/list_barcode_value"
+        app:layout_constraintEnd_toStartOf="@id/list_barcode_date"
+        app:layout_constraintStart_toEndOf="@id/list_barcode_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/tools_type" />
+
+    <TextView
+        android:id="@+id/list_barcode_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toStartOf="@id/list_barcode_date"
+        app:layout_constraintStart_toEndOf="@id/list_barcode_icon"
+        app:layout_constraintTop_toBottomOf="@id/list_barcode_type"
+        tools:text="@string/tools_value" />
+
+    <TextView
+        android:id="@+id/list_barcode_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/tools_date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
